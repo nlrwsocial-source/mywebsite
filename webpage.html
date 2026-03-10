@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Academic Research Page</title>
+
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+/* GENERAL */
+body{
+margin:0;
+font-family: Georgia, "Times New Roman", serif;
+background:#f5f7fa;
+color:#2c2c2c;
+}
+
+/* HEADER */
+header{
+background:#0f2a44;
+color:white;
+text-align:center;
+padding:50px 20px;
+}
+
+header h1{
+margin:0;
+font-size:36px;
+}
+
+/* NAVIGATION */
+nav{
+background:#1e3d63;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+padding:15px 25px;
+transition:background 0.3s;
+}
+
+nav a:hover{
+background:#2f5d96;
+}
+
+/* CONTAINER */
+.container{
+width:85%;
+max-width:1100px;
+margin:40px auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+/* CARDS */
+.card{
+background:white;
+padding:25px;
+border-radius:6px;
+border-top:4px solid #1e3d63;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 8px 18px rgba(0,0,0,0.15);
+}
+
+/* BUTTON */
+.button{
+display:inline-block;
+margin-top:15px;
+padding:10px 18px;
+background:#0f2a44;
+color:white;
+text-decoration:none;
+border-radius:4px;
+transition:0.3s;
+}
+
+.button:hover{
+background:#2f5d96;
+transform:scale(1.05);
+}
+
+/* SLIDES */
+.slide{
+width:85%;
+max-width:900px;
+margin:60px auto;
+background:white;
+padding:30px;
+border-radius:6px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+background:#0f2a44;
+color:white;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Introduction to Computers</h1>
+<p>Made by Neil Lorenz R. Wee <br> From BSEE-1A</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#slide1">About</a>
+<a href="#slide2">Important</a>
+<a href="#slide3">History</a>
+<a href="#slide4">Solving</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+<h2>Basic Knowledge about Computer</h2>
+<p>A digital device that consists of different components and works together to complete tasks.</p>
+<a href="#slide1" class="button">Learn More</a>
+</div>
+
+<div class="card">
+<h2>Advantages, Disadvantages of Computers</h2>
+<a href="#slide2" class="button">Learn More</a>
+</div>
+
+<div class="card">
+<h2>History of Computer</h2>
+<p>Discover innovative projects developed by students.</p>
+<a href="#slide3" class="button">View History</a>
+</div>
+
+<div class="card">
+<h2>Solving</h2>
+<p>Meet professors and academic staff.</p>
+<a href="#slide4" class="button">View Solving</a>
+</div>
+
+</div>
+
+<!-- SLIDE 1 -->
+<section id="slide1" class="slide">
+<h2>Basic Knowledge about Computer</h2>
+<p>
+A computer is an electronic device that processes data and performs tasks
+based on instructions provided by software and hardware components.
+</p>
+<h3>The Five Basic Components of Computer</h3>
+<p> The Arithmetic and Logic Unit,Control Unit, Input Unit, Memory Unit, and Output Unit.</p>
+<ul>
+    <li>Arithmetic and Logic – Responsible for mathematical and decision-making of computer system</li>
+    <li>Control Unit – Where the computer direct it's operation</li>
+    <li>Input Unit– Provides data or controls the signal outside computer</li>
+    <li>Memory Unit – Responsible for storing all the data that comes into computer</li>
+    <li>Output Unit – Responsible for converting all the data inside the Computer into a human readable form</li>
+    <li>System Bus - Where these 5 basic parts is connected <br> - Also serves as passageway of information to go in and out in the computer</li>
+</ul>
+</section>
+
+<!-- SLIDE 2 -->
+<section id="slide2" class="slide">
+<h2>Advantages of Computers</h2>
+<ul>
+	<li>The benefit we get from the computer’s speed is that we
+humans are free to use our time more creatively.</li>
+	<li>Computers are also very accurate.</li>
+	<li>Computers are consistent.</li>
+	<li>Computers are a workhorse.<li/>
+	<li>Computers can store and retrieve vast amounts of data.</li>
+	<li>Computers, in form of robots, can perform unpleasant,
+dangerous, or critical jobs.</li>
+	<li>Computers are to process information or data than any
+other machine at high speed.</li>
+	<li>Computers operate through a self-directing process.</li>
+	<li>Computers can communicate with the user or with
+another machine.</li>
+	<li>Computers reduce the cost of goods and services while
+increasing productivity.</li>
+</ul>
+<h3>Disadvantages of Computers</h3>
+	<li>The threat of unemployment.</li>
+	<li>The use of questionable data processing practices.</li>
+	<li>Computers can endanger people or the environment.</li>
+	<li>The trend toward depersonalization.<li/>
+	<li>The system security issue.</li>
+	<li>Lack of privacy.</li>
+</ul>
+<h4>Limitiations of Computer</h4>
+<ul>
+	<li>Computers can do only what is designed or
+programmed to do.</li>
+	<li>Computers cannot correct input data or information.</li>
+	<li>Computers cannot think and define meanings from
+objects.</li>
+	<li>Computers can only process jobs expressed in a finite
+number of steps leading to a precisely defined goal.<li/>
+	<li>Computers cannot completely avoid making errors due
+to system malfunction.</li>
+</section>
+
+<!-- SLIDE 3 -->
+<section id="slide3" class="slide">
+<h2>History of Computer</h2>
+<p>The history of computers began more than 5,000 years ago when early humans used their fingers, hands, and simple objects such as stones, shells, seeds, and beads for counting and basic calculations. One of the earliest known computing devices was the abacus, invented in China between 6000 and 500 BC, which was used to perform arithmetic operations. In the 17th century, several mathematical tools were developed to improve calculations, including Napier’s Bones invented by John Napier and the slide rule created by William Oughtred. During the same period, early mechanical calculators were also invented by Wilhelm Schickard, Blaise Pascal, and Gottfried Leibniz, enabling machines to perform basic arithmetic functions.
+
+In the 19th century, Charles Babbage designed the Difference Engine and the Analytical Engine, which introduced the concept of programmable machines, earning him the title “Father of Computers.” Augusta Ada Lovelace contributed to Babbage’s work and became recognized as the first computer programmer. Later, George Boole developed Boolean Algebra, which became the foundation of modern computer logic. In 1890, Herman Hollerith created the punched card processor to automate the United States Census, which eventually led to the establishment of the company that became IBM.
+
+During the 20th century, major advancements were made in electronic computing. Early computers such as the Mark I, Atanasoff-Berry Computer (ABC), and ENIAC were developed to perform complex calculations at high speed. These were followed by improved designs such as EDVAC, EDSAC, and UNIVAC. Technological developments continued with the invention of transistors in 1959, marking the second generation of computers, and integrated circuits in 1965, which led to the third generation. By 1972, the development of microprocessors initiated the fourth generation of computers and made personal computers possible. From the late 1970s to the 1990s, personal computers such as the Apple II, Macintosh, and IBM PCs became widely used, marking the beginning of modern computing.
+</p>
+<h3>Generations of Computer</h3>
+<p>First Generation(1946-1959)</p>
+<ul>
+	<li>Vacuum tubes were used</li>
+	<li>Speed was in milliseconds</li>
+	<li>Memory capacity was approximately 16,000 bytes</li>
+	<li>Magnetic drums were used for storage devices</li>
+	<li>Punched cards, paper tape, and the magnetic tape was used
+as input and output devices</li>
+	<li>Machine language was used for programming instructions</li>
+	<li>A batch processing operating system was used</li>
+	<li>Bulky huge in size and usually occupied one room</li>
+	<li>Reliability was very low because much heat was produced</li>
+	<li>Consumed a lot of electricity</li>
+	<li>Maintenance was very expensive</li>
+	<li>Non-portable</li>
+	<li>Need of AC</li>
+	<li>Unreliable</li>
+	<li>Computers of this generation are ENIAC, EDVAC,
+UNIVAC, IBM-701, and IBM-650</li>
+</ul>
+<p>Second Generation(1959-1965)</p>
+<ul>
+	<li>Transistors were used</li>
+	<li>Reliability increase</li>
+	<li>Doubled memory capacity</li>
+	<li>Speed was in microseconds</li>
+	<li>Magnetic cores were used as the primary memory</li>
+	<li>Magnetic tape and magnetic disks as secondary storage
+devices</li>
+	<li>Magnetic tape readers were used for input and output
+devices</li>
+	<li>Assembly language and high-level programming languages
+like FORTRAN, COBOL was used for writing programs</li>
+	<li>Batch processing and multiprogramming operating system</li>
+	<li>Introduced the notion of computer family architecture</li>
+	<li>Introduced execution-stack architecture</li>
+	<li>Maintenance became cheap</li>
+	<li>More compact size</li>
+	<li>The maximum decrease in size and heat</li>
+	<li>Consumed less power</li>
+	<li>AC required</li>
+	<li>Computers of this generation are IBM 1620, IBM 7094, CDC
+1604, CDC 3600, and UNIVAC 1108</li>
+</ul>
+<p>Third Generation(1965-1971)</p>
+<ul>
+	<li>Small Scale Integration (SSI) that uses Integrated circuits (IC)
+which commonly consists of 20,000 – 40,000 transistors were
+used</li>
+	<li>Memory capacity tremendously increase to kilobytes</li>
+	<li>Speed was in microseconds up to nanoseconds</li>
+	<li>Used magnetic core memories</li>
+	<li>Magnetic disks were used for secondary storage device</li>
+	<li>Magnetic disk drives or readers were used for input/output
+devices</li>
+	<li>High-level programming languages like FORTRAN-II TO
+IV, COBOL, PASCAL PL/1, BASIC, ALGOL-68 were used for
+instructions</li>
+	<li>Remote processing, time-sharing, multi-programming
+operating systems were used</li>
+	<li>Portable in size</li>
+	<li>Less heat produced</li>
+	<li>Reliability was very high</li>
+	<li>Less maintenance</li>
+	<li>Costly</li>
+	<li>AC required</li>
+	<li>Consumed lesser electricity</li>
+	<li>Computers of this generation are IBM-360 series,
+
+Honeywell-6000 series, PDP (Personal Data Processor), IBM-
+370/168, and TDC-316</li>
+</ul>
+<p>Fourth Generation(1971-1980)</p>
+<ul>
+	<li>Very Large-Scale Integration having about 5,000 transistors
+and other circuit elements with their associated circuits were
+used</li>
+	<li>Memory capacity increases up to Megabytes</li>
+	<li>Speed increased up to picoseconds</li>
+	<li>More versatile I/O Devices and Secondary Devices</li>
+	<li>Used time-sharing, real-time networks, distributed
+operating systems, and virtual memory</li>	
+	<li>High-level languages like C, C++, DBASE, etc., were used</li>
+	<li>Use pipeline processing</li>
+	<li>Birth of Microprocessors, Microcomputers, and
+Multiprogramming</li>
+	<li>Availability of application programs for the user’s needs</li>
+	<li>4 GL’s (Fourth Generation Language) were used</li>
+	<li>The concept of the Internet was introduced</li>
+	<li>Great developments in the fields of networks</li>
+	<li>More compact and thinner in size</li>
+	<li>Reliability was very high and there was more flexibility</li>
+	<li>Affordable</li>
+	<li>Portable</li>
+	<li>No AC required</li>
+	<li>Computers became easily available</li>
+	<li>Computers of this generation are DEC 10, STAR 1000, PDP
+11, CRAY-1(Super Computer), and CRAY-X-MP(Super
+Computer)</li>
+</ul>
+<p>Fifth Generation(1980 to Present)</p>
+<ul>
+	<li>Ultra Large Scale Integration (ULSI) technology having ten
+million electronic components</li>
+	<li>Speed capacity of CPU is reaching up to Gigahertz</li>
+	<li>Memory capacity reached up to Gigabytes</li>
+	<li>Parallel processing hardware and AI (Artificial Intelligence)
+software</li>
+	<li>C and C++, Java, .Net, etc. are used</li>
+	<li>Networking was introduced and applied to have faster data
+communications</li>
+	<li>Development of true Artificial Intelligence that includes
+Robotics, Neural Networks, Game Playing, Development of
+expert systems to make decisions in real-life situations, and
+Natural language understanding and generation</li>
+	<li>Artificial Intelligence experimented on more sophisticated
+and more powerful hardware technology</li>
+	<li>Software technology boomed and more companies made
+software to cater to the need of users</li>
+	<li>More user-friendly interfaces with multimedia features</li>
+	<li>Availability of very powerful and compact computers at
+cheaper rates</li>
+	<li>Computer types of this generation are Desktop, Laptop,
+NoteBook, UltraBook, and Chromebook</li>
+</ul>
+
+</section>
+
+<!-- SLIDE 4 -->
+<section id="slide4" class="slide">
+<h2>Solving in Computer Language</h2>
+<h3>Binary Numbers</h3>
+<p>means two
+states and the two states
+are sometimes called “1”
+and “0”, or called “true”
+and “false”, or called “on”
+and “off”.</p>
+<h4>Conversion of Binary to any Base</h4>
+<p>Binary to Decimal <br>-means two
+states and the two states
+are sometimes called “1”
+and “0”, or called “true”
+and “false”, or called “on”
+and “off”.</p>
+
+<<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/VLflTjd3lWA?si=FMztkIqbW3op26wD&amp;start=123" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+
+<p>Binary to Octal <br>-Combine 3 digits of binary digits to octal numbers using power of 2 for each binary digit. Add only those values that have the binary digit of 1 and convert them to octal numbers</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JxmarqiqUdM?si=7b6swRM9zdI4DIXH&amp;start=123" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Binary to Hexadecimal <br>-Combine 4 digits of binary digits from right to left then convert them to hexadecimal numbers using a power of 2 from each binary digit. Add those values that have binary digit of 1 then convert them to hexadecimal numbers</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tSLKOKGQq0Y?si=J5NwJjRv6E-dYbK7&amp;start=123" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h5>Conversion of Octal number to Any Base</h5>
+<p>Octal to Decimal <br>-Multiply digit by the power of 8 starting from the exponent of 0 and increasing from the right to left and add the answer</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YCM2JReWS10?si=Lh85sau81s_WYuTr&amp;start=123" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Octal to Binary <br>-Convert each Octal number to 3 binary digits using a power of 2 for each octal digit.Disregard all 0's on the left side</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WkScocdUtbE?si=easXkFEcnoBwvLx_&amp;start=123" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Octal to Hexadecimal <br>-Change octal numbers into binary numbers using a power of 2 for each octal digit then combine 4 digits of binary digits from right to left and convert them to hexadecimal numbers. Add only those values that have the binary digit of 1</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KXRyIH90shg?si=pRbrbzfDq-bDqHGm&amp;start=123" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h6>Conversion of Hexadecimal to any Base</h6>
+<p>Hexadecimal to decimal <br>-Multiply each digit by the power of 16 starting from the exponent of 0 and increasing from the right to left to add the answer.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pg-HEGBpCQk?si=CgP5Vt1lWODGfWqF&amp;start=123" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Hexadecimal to Binary <br>-Convert each hexadecimal number to 4 binary digits. Disregard all 0's on the left side</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D_YC6DSPpQE?si=0iyWrO9uz31FwhI2&amp;start=123" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Hexadecimal to Octal<br>-Change hexadecimal numbers to
+binary numbers using a power of 2 for each hexadecimal digit
+then combine 3 digits of binary digits from right to left and
+convert them to octal numbers. Add only those values that have
+the binary digit of 1.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ML_AkW97Axk?si=8dMxH0rMJdBIjhsZ&amp;start=123" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h6>Solving for Complements</h6>
+<p>Complements <br>-Used in digital computers for simplifying the subtraction operation. There are two types of complements for each base-r system the radix complements and diminished radix complement. Radix complement is referred to as r's complement while the diminished radix complement is referred to as (r-1)'s complement.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nKzy4s4sI-4?si=vYq1OEbQbHo1MqDM&amp;start=123" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+<footer>
+<p>© 2026 COMPROG OUTPUT</p>
+</footer>
+
+</body>
+</html>
